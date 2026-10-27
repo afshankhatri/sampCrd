@@ -88,7 +88,7 @@ export default function WalimaDetailsSection() {
             </div>
             <p className="font-cinzel tracking-widest text-xs uppercase mb-2 t-muted" style={{ transition: 'color 0.7s ease' }}>Date</p>
             <p className="font-playfair italic text-xl t-primary" style={{ transition: 'color 0.7s ease' }}>Wednesday</p>
-            <p className="font-cormorant text-lg t-accent" style={{ transition: 'color 0.7s ease' }}>8 July 2026</p>
+            <p className="font-cormorant text-lg t-accent" style={{ transition: 'color 0.7s ease' }}>16 Nov 2026</p>
           </div>
 
           {/* Time */}
@@ -104,7 +104,7 @@ export default function WalimaDetailsSection() {
             </div>
             <p className="font-cinzel tracking-widest text-xs uppercase mb-2 t-muted" style={{ transition: 'color 0.7s ease' }}>Time</p>
             <p className="font-playfair italic text-xl t-primary" style={{ transition: 'color 0.7s ease' }}>Evening</p>
-            <p className="font-cormorant text-lg t-accent" style={{ transition: 'color 0.7s ease' }}>7:30 PM onwards</p>
+            <p className="font-cormorant text-lg t-accent" style={{ transition: 'color 0.7s ease' }}>7:00 PM onwards</p>
           </div>
 
           {/* Venue */}
@@ -119,8 +119,8 @@ export default function WalimaDetailsSection() {
               </div>
             </div>
             <p className="font-cinzel tracking-widest text-xs uppercase mb-2 t-muted" style={{ transition: 'color 0.7s ease' }}>Venue</p>
-            <p className="font-playfair italic text-xl t-primary" style={{ transition: 'color 0.7s ease' }}>Atlantis The Royal</p>
-            <p className="font-cormorant text-lg t-accent" style={{ transition: 'color 0.7s ease' }}>Palm Jumeirah - Dubai - UAE</p>
+            <p className="font-playfair italic text-xl t-primary" style={{ transition: 'color 0.7s ease' }}>Vrindavan Marriage Garden</p>
+            <p className="font-cormorant text-lg t-accent" style={{ transition: 'color 0.7s ease' }}>Binjhiya, Mandla MP </p>
           </div>
         </div>
 
@@ -129,7 +129,7 @@ export default function WalimaDetailsSection() {
           <p className="font-cinzel tracking-widest text-xs uppercase mb-4 t-muted" style={{ transition: 'color 0.7s ease' }}>Location</p>
           <div className="map-frame-themed mx-auto max-w-xl rounded-xl overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7156305.159117453!2d45.37353515625!3d25.140311914680755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f15086afe32c9%3A0xcc7618cd4530c0e1!2sAtlantis%20The%20Royal!5e1!3m2!1sen!2sin!4v1779263417716!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4047.4964656224347!2d80.3696227!3d22.6153564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398096aa722d2a2d%3A0xa00c9f78855c29e8!2sM.K.%20Vrindavan%20Hotel%20%26%20Marriage%20Lawn.!5e1!3m2!1sen!2sin!4v1793117792455!5m2!1sen!2sin"
               width="100%" height="220"
               style={{ border: 0, filter: isDark ? 'invert(90%) hue-rotate(180deg)' : 'none', display: 'block', transition: 'filter 0.7s ease' }}
               allowFullScreen loading="lazy"
@@ -138,7 +138,7 @@ export default function WalimaDetailsSection() {
             />
           </div>
           <p className="font-cormorant italic text-sm mt-3 t-muted" style={{ transition: 'color 0.7s ease' }}>
-            Atlantis The Royal, Palm Jumeirah - Dubai - UAE
+            Vrindavan Marriage Garden, Binjhiya, Mandla MP, India
           </p>
         </div>
       </div>

@@ -298,8 +298,8 @@ export default function ScratchSection({ onUnlocked }: Props) {
 
         {/* Scratch circles */}
         <div className="flex flex-nowrap justify-center gap-4 sm:gap-8 w-full ">
-          <ScratchCircle label="Day" revealText="3" onScratched={() => handleScratched('day')} disabled={allDone}  />
-          <ScratchCircle label="Month" revealText="July" onScratched={() => handleScratched('month')} disabled={allDone}  />
+          <ScratchCircle label="Day" revealText="16" onScratched={() => handleScratched('day')} disabled={allDone}  />
+          <ScratchCircle label="Month" revealText="Nov" onScratched={() => handleScratched('month')} disabled={allDone}  />
           <ScratchCircle label="Year" revealText="26" onScratched={() => handleScratched('year')} disabled={allDone}  />
         </div>
 
@@ -355,7 +355,7 @@ export default function ScratchSection({ onUnlocked }: Props) {
                   transition: 'background 0.7s ease',
                 }}
               >
-                Friday, 3 July 2026
+                Monday, 16 Nov 2026
               </h3>
 
               <h3
@@ -368,7 +368,7 @@ export default function ScratchSection({ onUnlocked }: Props) {
                   backgroundClip: 'text',
                   transition: 'background 0.7s ease',
                 }}
-              >١٨ مُحَرَّم ١٤٤٨              
+              >٦ جُمَادَى الآخِر ١٤٤٨             
               </h3>
 
               <div className="h-px mx-auto mb-6" style={{ width: 80, background: `linear-gradient(90deg, transparent, ${accent}, transparent)`, transition: 'background 0.7s ease' }} />
@@ -377,10 +377,10 @@ export default function ScratchSection({ onUnlocked }: Props) {
               <div className="mb-6">
                 <p className="font-cinzel tracking-widest text-xs uppercase mb-4 t-muted" style={{ transition: 'color 0.7s ease' }}>InshaAllah</p>
                 <p className="font-arabic text-xl t-primary" style={{ fontFamily: "'Noto Naskh Arabic', serif", transition: 'color 0.7s ease' }}>
-                  بَعْدَ صَلَاةِ الْجُمُعَةِ
+                   بَعْدَ صَلَاةِ الْعَصْرِ              
                 </p>
-                <p className="font-playfair italic text-xl t-primary" style={{ transition: 'color 0.7s ease' }}>Baad Namaz-e-jumma</p>
-                <p className="font-cormorant text-base t-muted" style={{ transition: 'color 0.7s ease' }}>After Jumma Salah</p>
+                <p className="font-playfair italic text-xl t-primary" style={{ transition: 'color 0.7s ease' }}>Baad Namaz-e-Asr</p>
+                <p className="font-cormorant text-base t-muted" style={{ transition: 'color 0.7s ease' }}>After Asr Salah</p>
               </div>
 
               {/* Location */}
@@ -391,14 +391,14 @@ export default function ScratchSection({ onUnlocked }: Props) {
                     <path d="M7 1C4.2 1 2 3.2 2 6C2 10 7 17 7 17C7 17 12 10 12 6C12 3.2 9.8 1 7 1Z" stroke={accent} strokeWidth="1.3" fill={`${accent}18`} style={{ transition: 'stroke 0.7s ease, fill 0.7s ease' }} />
                     <circle cx="7" cy="6" r="1.8" stroke={accent} strokeWidth="1" style={{ transition: 'stroke 0.7s ease' }} />
                   </svg>
-                  <p className="font-playfair italic text-xl t-primary" style={{ transition: 'color 0.7s ease' }}>Masjid-Al-Haram</p>
+                  <p className="font-playfair italic text-xl t-primary" style={{ transition: 'color 0.7s ease' }}>Parasia Masjid</p>
                 </div>
               </div>
 
               {/* Map */}
               <div className="map-frame-themed mt-4 mx-auto max-w-sm">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14390535.567248754!2d20.093994140625007!3d24.467150664738988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15bdbf005ed60ebb%3A0x41d4f0ba8145173!2sHaram%20Madina%20Almasjid%20Al%20Nabawi%20shareef!5e1!3m2!1sen!2sin!4v1779263142261!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4469.149097598139!2d78.76753807528901!3d22.178346979774417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDEwJzQyLjEiTiA3OMKwNDYnMTIuNCJF!5e1!3m2!1sen!2sin!4v1793117380406!5m2!1sen!2sin"
                   width="100%" height="200"
                   style={{ border: 0, display: 'block', filter: isDark ? 'invert(90%) hue-rotate(180deg)' : 'none', transition: 'filter 0.7s ease' }}
                   allowFullScreen loading="lazy"

@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useTheme } from '../ThemeContext';
 
 const NAMES =
-  'Mr.Abdul Rehman  \n Mrs. Zubeda \n Ashar & Ezdan \n Entire Family \n All our Relatives and Friends';
+  'All Khan Family\n Relatives \n Friends';
 
 export default function RsvpSection() {
   const ref = useRef<HTMLDivElement>(null);
@@ -102,7 +102,7 @@ export default function RsvpSection() {
           <div className="h-px mx-auto mb-6" style={{ width: 80, background: `linear-gradient(90deg, transparent, ${accent}, transparent)`, transition: 'background 0.7s ease' }} />
 
           <p
-            className="font-cormorant italic text-lg sm:text-xl leading-relaxed whitespace-pre-wrap text-center t-secondary"
+            className="font-cormorant italic text-lg sm:text-xl leading-relaxed whitespace-pre-wrap text-center t-secondary  "
             style={{ minHeight: '6em', transition: 'color 0.7s ease' }}
           >
             {typeText}
@@ -117,7 +117,7 @@ export default function RsvpSection() {
             We would love to celebrate this day with you.
           </p>
           <p className="font-cormorant text-base mt-1 t-muted" style={{ transition: 'color 0.7s ease' }}>
-            Please confirm your Presence on 3rd July 2026
+            Please confirm your Presence on 16th Nov 2026
           </p>
         </div>
       </div>

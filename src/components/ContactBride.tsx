@@ -74,8 +74,8 @@ export default function ContactSection() {
 
               <div className="space-y-5">
                 {[
-                  { label: "Mrs.Rahila", value: '+91 91582 00258' },
-                  { label: "General Enquiry", value: '+91 82225 55462' },
+                  { label: "Mr.Mahboob Khan", value: '+91 94258 50950' },
+                  { label: "General Enquiry", value: '+91 87883 14656' },
                 ].map((c, i) => (
                   <div key={i} className="flex items-center gap-4">
                     <div
@@ -98,9 +98,11 @@ export default function ContactSection() {
 
           {/* Home location */}
           <div className="fade-up fade-up-delay-2 flex flex-col gap-5">
-            {[
-              { title: "Bride's Residence", name: 'Antilia', addr: 'Mumbai, India' },
-            ].map((h, i) => (
+            {[{
+              title: "Groom's Residence",
+              name: 'Home',
+              addr: 'Jawahar ward no. 19, Eidgah Colony, near Noorani Masjid, Mandla, Madhya Pradesh, India'
+            }].map((h, i) => (
               <div key={i} className="glass-card rounded-2xl p-6" style={{ transition: 'all 0.7s ease' }}>
                 <div className="flex items-start gap-4">
                   <div
@@ -126,7 +128,7 @@ export default function ContactSection() {
             {/* Small map */}
             <div className="map-frame-themed rounded-xl overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116784.82686311407!2d72.74096962836606!3d19.00549210521298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c912c15fc357%3A0x7fb3de6410c57d35!2sAnil%20Ambani%20House%2C%20Kokilaya%20Dhurabani%20Hospital%2C%20Nargis%20Dutt%20Rd%2C%20Pali%20Hill%2C%20Mumbai%2C%20Maharashtra%20400050!5e1!3m2!1sen!2sin!4v1779263787905!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4047.6871024250886!2d80.3655782753015!3d22.608877379465927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDM2JzMyLjAiTiA4MMKwMjInMDUuNCJF!5e1!3m2!1sen!2sin!4v1793119079447!5m2!1sen!2sin"
                 width="100%" height="160"
                 style={{ border: 0, filter: isDark ? 'invert(90%) hue-rotate(180deg)' : 'none', display: 'block', transition: 'filter 0.7s ease' }}
                 allowFullScreen loading="lazy"

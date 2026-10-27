@@ -78,37 +78,6 @@ export default function BrideGroomSection() {
 
         {/* Names grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4 items-center">
-          {/* Bride */}
-          <div ref={refBride} className="fade-up fade-up-delay-1 text-center">
-
-            <div className="mb-3 flex justify-center">
-              <img
-                src={Bride}
-                alt="Bride Name"
-                style={{
-                  width: 'clamp(200px, 40vw, 500px)',
-                  height: 'auto',
-                  objectFit: 'contain',
-                  lineHeight: 1.15,
-                }}
-              />
-            </div>
-
-            <div className="h-px mx-auto mb-3" style={{ width: 60, background: `linear-gradient(90deg, transparent, ${accent}, transparent)`, transition: 'background 0.7s ease' }} />
-
-            <p className="font-cormorant italic text-xl sm:text-2xl t-secondary" style={{ transition: 'color 0.7s ease' }}>
-              D/o Mrs.Rahila &amp; Mr.Rahil
-            </p>
-          </div>
-
-          {/* Weds ornament */}
-          
-            <div className="flex-1 flex justify-center">
-              <span className="font-amiri italic block" style={{ ...goldGradStyle, fontSize: 'clamp(1.6rem, 4vw, 2.4rem)' }}>
-                With
-              </span>
-            </div>
-
           {/* Groom */}
           <div ref={refGroom} className="fade-up fade-up-delay-3 text-center">
             <div className="mb-3 flex justify-center">
@@ -127,9 +96,41 @@ export default function BrideGroomSection() {
             <div className="h-px mx-auto mb-3" style={{ width: 60, background: `linear-gradient(90deg, transparent, ${accent}, transparent)`, transition: 'background 0.7s ease' }} />
 
             <p className="font-cormorant italic text-xl sm:text-2xl t-secondary" style={{ transition: 'color 0.7s ease' }}>
-              S/o Mrs.Afshana &amp; Mr.Afshan
+              S/o Dr. Nasim Bano &amp; Mr. Mahboob Khan
             </p>
           </div>
+
+          {/* Weds ornament */}
+          
+            <div className="flex-1 flex justify-center">
+              <span className="font-amiri italic block" style={{ ...goldGradStyle, fontSize: 'clamp(1.6rem, 4vw, 2.4rem)' }}>
+                With
+              </span>
+            </div>
+            
+          {/* Bride */}
+          <div ref={refBride} className="fade-up fade-up-delay-1 text-center">
+
+            <div className="mb-3 flex justify-center">
+              <img
+                src={Bride}
+                alt="Bride Name"
+                style={{
+                  width: 'clamp(350px, 70vw, 900px)',
+                  height: 'auto',
+                  objectFit: 'contain',
+                  lineHeight: 1.15,
+                }}
+              />
+            </div>
+
+            <div className="h-px mx-auto mb-3" style={{ width: 60, background: `linear-gradient(90deg, transparent, ${accent}, transparent)`, transition: 'background 0.7s ease' }} />
+
+            <p className="font-cormorant italic text-xl sm:text-2xl t-secondary" style={{ transition: 'color 0.7s ease' }}>
+              D/o Late Mr. Abdul Hanif Khan
+            </p>
+          </div>
+          
         </div>
 
 

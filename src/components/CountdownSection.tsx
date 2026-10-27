@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useTheme } from '../ThemeContext';
 
 
-const TARGET = new Date('2026-07-03T13:30:00');
+const TARGET = new Date('2026-11-16T16:30:00');
 
 interface TimeLeft {
   days: number;
@@ -156,7 +156,7 @@ export default function CountdownSection() {
           </div>
         )}
         <p className="font-cormorant italic text-base mt-4 t-muted" style={{ transition: 'color 0.7s ease' }}>
-          Friday, 3 July 2026 · After Jumma Salah
+          Monday, 16 Nov 2026 · After Asr Salah
         </p>
       </div>
     </section>

@@ -76,7 +76,7 @@ export default function Footer() {
               transition: 'background 0.7s ease',
             }}
           >
-            Tabbasum
+            Faishal
           </h2>
 
           <div className="flex flex-col items-center gap-1">
@@ -101,7 +101,7 @@ export default function Footer() {
               transition: 'background 0.7s ease',
             }}
           >
-            Faizan
+            Saniya
           </h2>
         </div>
 
@@ -109,11 +109,11 @@ export default function Footer() {
 
 
         <p className="font-cinzel tracking-[0.3em] text-xs uppercase mt-1" style={{ color: isDark ? '#4a6a5a' : '#8a7650', transition: 'color 0.7s ease' }}>
-          3 July 2026
+          16 Nov 2026
         </p>
 
         <p className="font-cormorant italic text-sm mt-6" style={{ color: isDark ? '#3a5a4a' : '#8a7650', transition: 'color 0.7s ease' }}>
-          Made with love by Afshan @ (
+          Made with love (
             <a
               href="https://barqlabs.tech"
               target="_blank"
