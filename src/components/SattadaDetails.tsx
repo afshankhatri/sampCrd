@@ -88,7 +88,7 @@ export default function WalimaDetailsSection() {
             </div>
             <p className="font-cinzel tracking-widest text-xs uppercase mb-2 t-muted" style={{ transition: 'color 0.7s ease' }}>Date</p>
             <p className="font-playfair italic text-xl t-primary" style={{ transition: 'color 0.7s ease' }}>Wednesday</p>
-            <p className="font-cormorant text-lg t-accent" style={{ transition: 'color 0.7s ease' }}>16 Nov 2026</p>
+            <p className="font-cormorant text-lg t-accent" style={{ transition: 'color 0.7s ease' }}>18 Nov 2026</p>
           </div>
 
           {/* Time */}
