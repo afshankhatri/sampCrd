@@ -72,7 +72,7 @@ export default function BrideGroomSection() {
             </span>
           </p>
           <p className="font-cormorant italic text-xl sm:text-2xl t-secondary" style={{ transition: 'color 0.7s ease' }}>
-            we invite you to witness and celebrate the sacred union of
+            Dr. Nasim Bano &amp; Mr. Mahboob Khan invites you to be a part of the celebration and sacred union of their beloved son
           </p>
         </div>
 
@@ -95,9 +95,9 @@ export default function BrideGroomSection() {
 
             <div className="h-px mx-auto mb-3" style={{ width: 60, background: `linear-gradient(90deg, transparent, ${accent}, transparent)`, transition: 'background 0.7s ease' }} />
 
-            <p className="font-cormorant italic text-xl sm:text-2xl t-secondary" style={{ transition: 'color 0.7s ease' }}>
+            {/* <p className="font-cormorant italic text-xl sm:text-2xl t-secondary" style={{ transition: 'color 0.7s ease' }}>
               S/o Dr. Nasim Bano &amp; Mr. Mahboob Khan
-            </p>
+            </p> */}
           </div>
 
           {/* Weds ornament */}
