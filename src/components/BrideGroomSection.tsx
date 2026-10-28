@@ -116,7 +116,7 @@ export default function BrideGroomSection() {
                 src={Bride}
                 alt="Bride Name"
                 style={{
-                  width: 'clamp(350px, 70vw, 900px)',
+                  width: 'clamp(250px, 70vw, 900px)',
                   height: 'auto',
                   objectFit: 'contain',
                   lineHeight: 1.15,
